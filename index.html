@@ -15,37 +15,35 @@
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     </div>
     <!-----navbar-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="#">Scrum</a>
-                                <a class="nav-item nav-link" href="#">Kanban</a>
-                                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </div>
-                </div>
-                    </nav>
+    <ul class="nav bg-dark">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Scrum</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Kanban</a>
+      </li>
+    </ul>
                     <!--left side page content-->
                     
                     <div class="container">
                       <!-----side navbar-->
                         <div class="row">
                           <div class="col-md-4 bg-light mt-5">
-                            <ul class="nav flex-column">
-                              <li class="nav-item">
-                                <a class="nav-link active" href="#">Agile</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Scrum</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Kanban</a>
-                              </li>
-                            </ul>
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav flex-column">
+                                  <a class="nav-item nav-link"  href="#">Agile</a>
+                                  <a class="nav-item nav-link" href="#">Scrum</a>
+                                  <a class="nav-item nav-link" href="#">Kanban</a>
+                                </div>
+                              </div>
+                            </nav>
                             <!-----card-->
                             <div class="card w-70 mt-5">
                               <div class="card-body">
